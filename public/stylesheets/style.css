@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #f7f7f7;
+}
+header {
+  text-align: left;
+  padding: 0px;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.05);
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+li {
+  display: block;
+  text-align: center;
+  padding: 10px 5px;
+}
+li a {
+  font-size: 14px;
+  display: block;
+  color: #202020;
+  padding: 14px 16px;
+  text-decoration: none;
+  border: 1px solid #fff;
+}
+.main {
+  padding: 50px;
+}
+h1 {
+  display: block;
+  font-size: 30px;
+  color: #202020;
+  padding: 14px 16px;
+}
+h2 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #202020;
+  padding-bottom: 20px;
+}
+.reslog {
+  display: block;
+  text-align: center;
+}
+.reslog a {
+  display: block;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #202020;
+}
+label {
+  font-weight: 600;
+  text-align: right;
+  clear: both;
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 5px;
+  width: 70%;
+}
+input, textarea {
+  text-align: left;
+  float: right;
+  width: 80%;
+  margin-right: 15px;
+  margin-bottom: 5px;
+}
+input[type='submit'] {
+  background-color: #202020;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin: 5px 0px;
+  cursor: pointer;
+  width: 50%;
+  margin-right: 15px;
+  margin-bottom: 5px;
+  text-align: center;
+}
